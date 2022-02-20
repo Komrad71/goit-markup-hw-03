@@ -1,0 +1,220 @@
+/* Объявление переменных и указание им значений */
+:root{
+    /* Цвет заднего фона */
+    --primary-bg--mode: #2F303A;
+    --secondary-bg--mode: #F5F4FA;
+    
+    /* Основные шрифты */
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+  
+    /*Основные цвета*/
+    --title-cl: #212121;
+    --target-cl: #2196F3;
+    --web-cl: #2196F3;
+    --studio-footer-cl: #ffffff;
+    --link-contact-cl: #757575;
+    --hero-cl: #ffffff;
+    --foter-mail-cl: #FFFFFF99;
+    --txt-btn-cl:#ffffff;
+    --txt-link-cl: #000000;
+    --current-cl: #2196F3;
+    --bg-hero--btn-cl: #188CE8;
+    --btn-filter--bg-mode:#F5F4FA;
+  
+  }
+  
+  body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  }
+  
+  /* прячем заголовок */
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  
+  .list { list-style: none;}
+  
+  .link {
+    text-decoration: none;
+    color: var(--txt-link-cl);
+  }
+  .btn{
+    cursor: pointer;
+  }
+  
+  .hero, .footer {
+    background-color: var(--primary-bg--mode);
+  }
+  
+  .navigation-link.current{
+    color: var(--current-cl);
+  }
+  
+  /* header*/
+  .navigation-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-cl); 
+  }
+  .link-mail, .link-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--link-contact-cl);
+  }
+  
+  .web-primary, .web-secondary{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--web-cl);
+  }
+  
+  .studio-primary{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .studio-secondary{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--studio-footer-cl);
+  }
+  
+  /* секция герой*/
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--hero-cl);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .hero-btn{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    background-color: var(--target-cl);
+    color: var(--hero-cl);
+    border-style: none;
+    box-shadow: 0px 4px 4px #d9d9d9;
+    border-radius: 4px;
+    }
+  
+  /* секция особенности*/
+  .dignity-headline {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-cl);
+    text-transform: uppercase;
+  }
+  
+  /*секция занятия+команда*/
+  .team{
+  background-color: var(--secondary-bg--mode);
+  }
+  
+  
+  .services-title, .team-title{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-cl);
+  }
+  
+  .team-headline {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--title-cl);
+  }
+  
+  .team-position {
+    font-size: 16px;
+    line-height: 1.19;
+  }
+  
+  /*секция портфолио*/
+  
+  .filtre-btn{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-style: none;
+    border-radius: 4px;
+    background-color: var(--btn-filter--bg-mode);
+  }
+  
+  .projects-headline{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-cl);
+  }
+  
+  .projects-view{
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--link-contact-cl);
+  }
+  
+  /*footer*/
+  .footer-contact{
+    font-style: normal;
+  }
+  
+  .fotter-list{
+    font-style: normal;
+  }
+  .footer-location{
+     color: var(--studio-footer-cl);
+  }
+  
+  .footer-mail, .footer-tel{
+    
+     color: var(--foter-mail-cl);
+  }
+  
+  /*ховер и фокус на сслыки и кнопки*/
+  .target:hover,
+  .target:focus {
+    color: var(--target-cl);
+  }
+  
+   .hero-btn:hover,
+   .hero-btn:focus {
+    background-color: var(--bg-hero--btn-cl);
+  }
+  
+   .filtre-btn:hover,
+   .filtre-btn:focus {
+    background-color: var(--target-cl);
+    color: var(--txt-btn-cl);
+  }
