@@ -9,9 +9,33 @@ body {
 a {
   text-decoration: none;
 }
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
 ul{
+  padding-left: 0;
+  margin: 0;
   list-style: none;
 }
+/* button {
+  cursor: pointer;
+} */
+/* address { 
+  font-style: normal;
+ } */
+
+img {
+  display: block;
+}
+.container { 
+  /* width: calc(1170px + 15px + 15px); */
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px; 
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -55,8 +79,13 @@ ul{
 
 .hero {
   background-color: #2E2F42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
 }
 .hero-title {
+  max-width: 496px;
+  margin: 0 auto;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
@@ -64,6 +93,8 @@ ul{
   color: white;
 }
 .hero-btn {
+  display: block;
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -72,6 +103,7 @@ ul{
   background-color:#4D5AE5;
   color: white;
   cursor: pointer;
+
 }
 .hero-btn:hover, .hero-btn:focus {
   background-color:#404BBF;
