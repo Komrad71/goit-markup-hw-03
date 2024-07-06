@@ -69,8 +69,8 @@ img {
   color: #2E2F42;
 }
 
-.header-item {
-  padding: 24px 0;
+/* .header-item {
+  padding: 24px 0; */
 }
 .header-link {
   font-family: 'Roboto', sans-serif;
@@ -79,6 +79,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  padding: 24px 0;
 }
 .header-list {
   display: flex;
