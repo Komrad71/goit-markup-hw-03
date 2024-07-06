@@ -70,8 +70,8 @@ img {
 }
 
 /* .header-item {
-  padding: 24px 0; */
-}
+  padding: 24px 0;
+} */
 .header-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -79,11 +79,13 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .header-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link:hover, .header-link:focus {
   color: #404bbf
