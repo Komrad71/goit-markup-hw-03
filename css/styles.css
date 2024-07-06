@@ -10,12 +10,14 @@ a {
   text-decoration: none;
 }
 p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+  margin-top:  0;
+  margin-bottom: 0;
 }
 ul{
   padding-left: 0;
-  margin: 0;
-  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
 }
 /* button {
   cursor: pointer;
@@ -28,15 +30,19 @@ img {
   display: block;
 }
 .container { 
-  /* width: calc(1170px + 15px + 15px); */
-  max-width: 1200px;
+  /* width: calc(1128px + 15px + 15px); */
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px; 
   margin-left: auto;
   margin-right: auto;
+  /* margin: 0 auto; */
   }
 
-
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -81,6 +87,7 @@ img {
   background-color: #2E2F42;
   padding-top: 188px;
   padding-bottom: 188px;
+  /* padding: 188px 472px; */
 
 }
 .hero-title {
@@ -91,6 +98,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
+  margin-bottom: 48px;
 }
 .hero-btn {
   display: block;
@@ -107,6 +115,10 @@ img {
 }
 .hero-btn:hover, .hero-btn:focus {
   background-color:#404BBF;
+}
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-subtitle {
   /* font-family: var(--font-family); */
@@ -127,6 +139,8 @@ img {
 
 .team {
   background-color: #F4F4FD;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   /* font-family: var(--font-family);
@@ -137,6 +151,8 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2E2F42;
+  margin-bottom: 72px;
+  
 }
 .team-item {
   background-color: #FFFFFF;
@@ -159,7 +175,12 @@ img {
   /* text-align: center; */
   color: #434455;
 }
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .portfolio-title {
+  margin-bottom: 72px;
   /* font-family: var(--font-family);
   font-weight: 700; */
   text-transform: capitalize;
@@ -187,6 +208,8 @@ img {
 }
 .footer {
   background-color: #2E2F42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -202,6 +225,7 @@ img {
 }
 .footer-text {
   /* font-family: var(--font-family); */
+  /* margin-top: 16px; */
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
