@@ -46,10 +46,12 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
  display: flex;
+ align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -88,6 +90,7 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-address-link {
   font-family: 'Roboto', sans-serif;
@@ -131,6 +134,9 @@ img {
   background-color:#4D5AE5;
   color: white;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border:none;
 
 }
 .hero-btn:hover, .hero-btn:focus {
@@ -139,11 +145,18 @@ img {
 .advantages {
   padding-top: 120px;
   padding-bottom: 120px;
-  
-  
 }
-.advantages-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages-list {
   display: flex;
@@ -195,6 +208,12 @@ img {
   background-color: #FFFFFF;
   padding-bottom: 32px;;
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+.about-member {
+  padding: 32px 0;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-subtitle {
   /* font-family: var(--font-family); */
@@ -203,9 +222,9 @@ img {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  text-align: center;
+  /* text-align: center; */
   color: #2E2F42;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .team-text {
   /* font-family: var(--font-family); */
@@ -213,7 +232,7 @@ img {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  text-align: center;
+  /* text-align: center; */
   color: #434455;
 }
 .portfolio {
@@ -242,7 +261,7 @@ img {
 }
 .portfolio-subtitle {
   margin-top: 32px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   /* font-family: var(--font-family); */
   font-weight: 500;
   font-size: 20px;
@@ -258,12 +277,20 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.about-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .footer {
   background-color: #2E2F42;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -275,6 +302,7 @@ img {
 .footer-logo-studio {
   color: #F4F4FD;
 }
+
 .footer-text {
   /* font-family: var(--font-family); */
   margin-top: 16px;
