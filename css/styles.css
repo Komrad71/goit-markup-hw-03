@@ -53,8 +53,8 @@ img {
 .header-nav {
  display: flex;
  align-items: center;
- padding-top: 24px;
- padding-bottom: 24px;
+ /* padding-top: 24px;
+ padding-bottom: 24px; */
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -65,14 +65,14 @@ img {
   text-transform: uppercase;
   color: #4d5ae5 ;
   margin-right: 76px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .header-logo-studio {
   color: #2E2F42;
 }
 
 .header-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .header-link {
   font-family: 'Roboto', sans-serif;
@@ -81,13 +81,13 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .header-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .header-link:hover, .header-link:focus {
   color: #404bbf
@@ -99,7 +99,7 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .header-address-link {
   font-family: 'Roboto', sans-serif;
@@ -108,8 +108,8 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .header-address-link:hover, .header-address-link:focus {
   color: #404bbf;
