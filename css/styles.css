@@ -42,6 +42,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -68,6 +69,9 @@ img {
   color: #2E2F42;
 }
 
+.header-item {
+  padding: 24px 0;
+}
 .header-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -224,7 +228,7 @@ img {
   letter-spacing: 0.02em;
   /* text-align: center; */
   color: #2E2F42;
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
 }
 .team-text {
   /* font-family: var(--font-family); */
@@ -261,7 +265,7 @@ img {
 }
 .portfolio-subtitle {
   margin-top: 32px;
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
   /* font-family: var(--font-family); */
   font-weight: 500;
   font-size: 20px;
