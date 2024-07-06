@@ -43,9 +43,13 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-nav {
-  margin-right: 90px;
-  margin-left: auto;
+ display: flex;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -55,6 +59,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5 ;
+  margin-right: 76px;
   
 }
 .header-logo-studio {
@@ -69,11 +74,20 @@ img {
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
+.header-list {
+  display: flex;
+  gap: 40px;
+}
 .header-link:hover, .header-link:focus {
   color: #404bbf
 } 
 .header-address {
   font-style: normal;
+  margin-left: auto;
+}
+.header-address-list {
+  display: flex;
+  gap: 40px;
 }
 .header-address-link {
   font-family: 'Roboto', sans-serif;
@@ -269,4 +283,5 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+  max-width: 264px;
 }
